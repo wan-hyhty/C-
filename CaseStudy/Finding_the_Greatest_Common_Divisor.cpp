@@ -11,7 +11,7 @@ int main()
     int i = 1, max_i = 0;
     while (i <= num1 || i <= num2)
     {
-        if (num1 % i == 0 && num2 % i == 0 && i > max_i)
+        if (num1 % i == 0 && num2 % i == 0)
             max_i = i;
         i++;
     }
